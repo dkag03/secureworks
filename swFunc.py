@@ -18,7 +18,7 @@ def findLargest(filePath = None):
     Args:
         args: command line argument list
     Returns:
-        The longest word in the file or an appropriate error message
+        The longest word in the file or None if word was not obtained
     """
     if not filePath:
         filePath = input("Please enter a file path ('q' to quit): ")
