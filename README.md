@@ -1,4 +1,4 @@
-# secureworks challenge
+# secureworks challenge #
 
 # Dependencies:
 python3+: https://www.python.org/downloads/release/python-373/
