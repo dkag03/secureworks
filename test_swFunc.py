@@ -3,7 +3,7 @@
 """
  Author: David Addai
  This file tests the findLargest function of the swFunc module in accordance with the 
- test cases documented in github
+ test cases document in Google Docs.
 """
 
 
