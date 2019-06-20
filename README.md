@@ -7,7 +7,7 @@ python3+: https://www.python.org/downloads/release/python-373/
 # Assumptions:
 - The user has python3 installed on their machine
 - User has downloaded all files from this repository locally
-- User has modified the `testData` path in `https://github.com/dkag03/secureworks/blob/master/test_swFunc.py` file to correspond with their operating system and download location
+- User has modified the `testDataPath` path in `https://github.com/dkag03/secureworks/blob/master/test_swFunc.py` file to correspond with their operating system and download location
 - If using a Mac, ensure that the two scripts are executable `(chmod +x <filename>)`
 
 
