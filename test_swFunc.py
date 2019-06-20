@@ -32,6 +32,10 @@ class FindLargestTestCase(unittest.TestCase):
     def test_bad_path2(self):
         """No word found when called with a directory path"""
         self.assertEqual(None, findLargest(os.path.join(testDataPath, "")))
+		
+    def test_bad_path3(self):
+        """No word found when called with a file where user has no read permissions"""
+        self.assertEqual(None, findLargest(os.path.join(testDataPath, "validFileNoPermission.txt")))
 
     def test_file_with_single_word(self):
         """Word is found when file has a single word"""
