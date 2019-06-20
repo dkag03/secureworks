@@ -15,8 +15,8 @@ import errno
 
 def findLargest(filePath = None):
     """Find and print the largest word from a file containing words.
-    Args:
-        args: command line argument list
+    filePath:
+        filePath: path to a text file
     Returns:
         The longest word in the file or None if word was not obtained
     """
