@@ -17,5 +17,5 @@ Test files: located in this repository
 
 # Setup
 1. Download repository files onto your local machine
-2. Follow the steps in the test case document to run the application
+2. Follow the steps in the test case document to run the application and unit tests
 
