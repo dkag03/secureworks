@@ -28,7 +28,6 @@ def findLargest(filePath = None):
             wordList = f.readlines()
             f.close()
             # stop execution and notify user if the provided file is blank
-            print("len=" + str(len(wordList)))
             if len(wordList) == 0: 
                 print ("File contains no words\n")
             else:
