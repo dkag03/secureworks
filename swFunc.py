@@ -25,7 +25,7 @@ def findLargest(filePath = None):
     if os.path.exists(filePath):
         try:
             f = open(filePath, 'r')
-            wordList = f.readlines()
+            wordList = [word for word in f.readlines() if word.strip() != '']
             f.close()
             # stop execution and notify user if the provided file is blank
             if len(wordList) == 0: 
